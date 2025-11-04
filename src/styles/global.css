@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+* {
+    /* Codigo padrão para todo o site */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jura', sans-serif;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+html, body {
+    height: 100%;
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #838DA1 5%, #123076 99%);
+    /* Esse estilo serve para centralizar o conteúdo do site, usei ctrl + ; para comentar(atalho) */
+}
